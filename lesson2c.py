@@ -17,13 +17,23 @@ print(type(phonebook))
 # print ya benson
 print(phonebook["Benson"])
 
-print(=======================)
+
 
 player={
     "name" : "messi" ,
     "age" : "36" ,
-    "teams" : ["psg", "barca", "inter miami"]
+    "teams" : ["psg", "barca", "inter miami"],
+    "more" :{
+        "children" : "3",
+        "residence" : "USA",
+        "mobile no" : 1745364523, 4123456789, 1765432897
+    }
+
 }
+
+# no of messi
+
+print(player [more]["mobile no"] [1])
 
 # print barca only
 
